@@ -2,15 +2,15 @@
 	"name": "luarequire",
 	"displayName": "LuaRequire",
 	"description": "",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
 	"categories": [
 		"Other"
 	],
-    "icon": "res/icon.png",
-    "repository": {
+	"icon": "res/icon.png",
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/lin3348/luarequire_plugin.git"
 	},
