@@ -1,6 +1,5 @@
 # luarequire README
 ## Features
-* 安装release目录下的插件到vscode, 拖放插件到vscode的插件区域即可
 * alt+a 快速将当前行require代码提取到文件头部，并删除第一级目录。删除第一级目录的特性只针对特定工程
 * luarequire.searchPath 配置根搜索路径，require时会自动修正。默认搜索路径为 ["Logic","Framework","HFModule","Settings","ToLua"]
 
