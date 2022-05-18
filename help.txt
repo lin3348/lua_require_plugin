@@ -1,0 +1,13 @@
+官方教程
+https://code.visualstudio.com/api/get-started/your-first-extension
+
+
+$ cd myExtension
+$ vsce package
+# myExtension.vsix generated
+$ vsce publish
+# <publisherID>.myExtension published to VS Code Marketplace
+
+
+vsce login <publisher name>
+vsce publish minor
