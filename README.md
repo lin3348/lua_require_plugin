@@ -1,9 +1,11 @@
 # luarequire README
 ## Features
-* alt+a 快速将当前行require代码提取到文件头部，并删除第一级目录。删除第一级目录的特性只针对特定工程
-* luarequire.searchPath 配置根搜索路径，require时会自动修正。默认搜索路径为 ["Logic","Framework","HFModule","Settings","ToLua"]
+* shortcut "alt+a" can quick fix the require function that allow you require any where without navigate into file header.
+* setting luarequire.searchPath config package.path which will root the modules. default root path is["Logic","Framework","HFModule","Settings","ToLua"] that you can modify as you like.
 
 ![luarequire-help](https://github.com/lin3348/luarequire_plugin/blob/203f3be3b034a6c47a19a4ad391fca1b56a87a51/res/luarequire-help.gif?raw=true)
+
+Origin Code :
 
 ```
 function Test()
@@ -12,9 +14,11 @@ function Test()
     local bag = bagModule.GetBagById(id)
     bag.BuySomething()
 end
+```
 
-提取为：
+After alt+a :
 
+```
 local BagModule = require("Bag.BagModule")
 
 function Test()
